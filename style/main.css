@@ -293,3 +293,40 @@ img{
 .footer__logo{
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 1025px){
+    .header{
+        position: fixed;
+    }
+
+    .logo-text{
+        width: 25%;
+        box-sizing: border-box;
+    }
+
+    .header__BtnMenu{
+        display: none;
+    }
+
+    .header__nav{
+        float: left;
+        width: 75%;
+        clear: none;
+        max-width: 1000px;
+    }
+
+    .header__nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header__nav li{
+        border-bottom: none;
+        flex-grow: 1;
+    }
+
+    .header__nav a{
+        background: #fff;
+        border-bottom: none;
+    }
+}
