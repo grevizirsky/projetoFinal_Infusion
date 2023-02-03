@@ -329,4 +329,32 @@ img{
         background: #fff;
         border-bottom: none;
     }
+
+    .people-cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .content .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .last-articles__thumbs{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .footer .container{
+        display: flex;
+    }
+
+    .footer .container > *{
+        margin: 1.5em;
+    }
+
+    .footer__links li a:hover{
+        color: #737e81;
+    }
 }
