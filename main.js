@@ -10,4 +10,19 @@
         widthEnable: 1024
     })
 
+    //CARROSEL DE IMAGENS
+    var carouselImg = new Carousel({
+        container: '.laptop-slider .slideshow',
+        itens: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+     })
+
+     //CARROSEL DEPOIMENTOS
+     var carouselQuotes = new Carousel({
+        container: '.quote-slideshow',
+        itens: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+     })
 })()
